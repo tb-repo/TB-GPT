@@ -36,7 +36,7 @@ if st.button("Generate Posts"):
             st.markdown(f'<div class="output-text">{base_response}</div>', unsafe_allow_html=True)
         
         with col2:
-            st.subheader("Satvik-GPT (Fine-tuned Model)")
+            st.subheader("TB-GPT (Fine-tuned Model)")
             st.markdown(f'<div class="output-text">{ft_response}</div>', unsafe_allow_html=True)
     else:
         st.warning("Please enter a topic before generating posts.")
